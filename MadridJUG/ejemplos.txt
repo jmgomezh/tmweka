@@ -1,0 +1,56 @@
+REM EJEMPLO 1 - OPCIONES
+
+java weka.classifiers.bayes.NaiveBayes
+
+REM EJEMPLO 2 - EVALUACIÓN CON ARCHIVO DE TEST
+
+java weka.classifiers.bayes.NaiveBayes -t zip.train.arff -T zip.test.arff -c first -v -o -i -k
+
+REM EJEMPLO 3 - EVALUACIÓN POR VALIDACIÓN CRUZADA
+
+java weka.classifiers.bayes.NaiveBayes -t spambase.arff -x 10 -v -o
+
+REM EJEMPLO 4 - EVALUACIÓN POR PARTICIÓN
+
+java weka.classifiers.bayes.NaiveBayes -t spambase.arff -split-percentage 80 -v -o
+
+REM EJEMPLO 5 - ALMACENAMIENTO DEL MODELO
+
+java weka.classifiers.bayes.NaiveBayes -t spambase.arff -d spambase.NB.data -no-cv -o
+more spambase.NB.data
+
+REM EJEMPLO 6 - PREDICCIÓN
+
+java weka.classifiers.bayes.NaiveBayes -l spambase.NB.data -T spambase.arff -p 0
+
+REM EJEMPLO 7 - PREDICCIÓN
+
+java weka.classifiers.bayes.NaiveBayes -l spambase.NB.data -T spambase.arff -classifications weka.classifiers.evaluation.output.prediction.PlainText
+
+REM EJEMPLO 8 - OPCIONES DE SELECCION DE ATRIBUTOS
+
+java weka.filters.supervised.attribute.AttributeSelection -h
+
+REM EJEMPLO 9 - SELECCION DE ATRIBUTOS
+
+java weka.filters.supervised.attribute.AttributeSelection -i spambase.arff -o spambase.IG0.arff -E weka.attributeSelection.InfoGainAttributeEval -S "weka.attributeSelection.Ranker -T 0.2"
+more spambase.IG0.arff
+
+REM EJEMPLO 10 - DE NO SPARSE A SPARSE
+
+more spambase.arff
+java weka.filters.unsupervised.instance.NonSparseToSparse
+-i spambase.arff -o spambase.sparse.arff
+more spambase.sparse.arff
+
+REM EJEMPLO 11 - OPCIONES DE STRINGTOWORDVECTOR
+
+java weka.filters.unsupervised.attribute.StringToWordVector -h
+
+REM EJEMPLO 12 - EJEMPLO DE STRINGTOWORDVECTOR
+
+more smsspam.small.arff
+java weka.filters.unsupervised.attribute.StringToWordVector -i smsspam.small.arff -o smsspam.small.vector.arff
+more smsspam.small.vector.arff
+java weka.classifiers.bayes.NaiveBayes -t smsspam.small.arff -c first
+java weka.classifiers.bayes.NaiveBayes -t smsspam.small.vector.arff -c first
