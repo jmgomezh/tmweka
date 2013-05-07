@@ -24,7 +24,7 @@ import java.io.*;
  * It loads a text dataset written in ARFF format, evaluates a classifier on it,
  * and saves the learnt model for further use.
  * @author Jose Maria Gomez Hidalgo - http://www.esp.uem.es/jmgomez
- * @see MyFilteredClassifier
+ * @see MyClassifier
  */
 public class MyLearner {
 
@@ -117,7 +117,7 @@ public class MyLearner {
 	
 		MyLearner learner;
 		if (args.length < 2)
-			System.out.println("Usage: java MyFilteredLearner <fileData> <fileModel>");
+			System.out.println("Usage: java Learner <fileData> <fileModel>");
 		else {
 			learner = new MyLearner();
 			learner.loadDataset(args[0]);

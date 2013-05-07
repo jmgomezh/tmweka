@@ -54,3 +54,15 @@ java weka.filters.unsupervised.attribute.StringToWordVector -i smsspam.small.arf
 more smsspam.small.vector.arff
 java weka.classifiers.bayes.NaiveBayes -t smsspam.small.arff -c first
 java weka.classifiers.bayes.NaiveBayes -t smsspam.small.vector.arff -c first
+
+REM COMPILAR Y EJECUTAR LOS EJEMPLOS DE CÓDIGO
+
+javac MyLearner.java
+java MyLearner weather.numeric.arff weather.NB.data
+
+javac MyClassifier.java
+java MyClassifier "sunny,85,85,FALSE" weather.NB.data weather.numeric.header.arff
+
+REM Editar main(), comentar makeInstance() y descomentar loadHeader() y makeInstanceFromHeader()
+javac MyClassifier.java
+java MyClassifier "sunny,85,85,FALSE" weather.NB.data weather.numeric.header.arff

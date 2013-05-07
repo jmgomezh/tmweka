@@ -1,0 +1,9 @@
+@relation weather
+
+@attribute outlook {sunny, overcast, rainy}
+@attribute temperature real
+@attribute humidity real
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+
+@data
