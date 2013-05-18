@@ -1,6 +1,6 @@
 @relation langid_train
 
-@attribute class {EN,FR,SP}
+@attribute language_class {EN,FR,SP}
 @attribute text String
 
 @data
