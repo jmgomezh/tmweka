@@ -21,7 +21,7 @@ import java.io.*;
 /**
  * This class implements a simple text classifier in Java using WEKA.
  * It loads a file with the text to classify, and the model that has been
- * learnt with MyFilteredLearner.java.
+ * learnt with teh learn.sh script.
  * @author Jose Maria Gomez Hidalgo - http://www.esp.uem.es/jmgomez
  * @see MyFilteredLearner
  */
