@@ -15,7 +15,3 @@ java weka.classifiers.lazy.IBk -K 3 -no-cv -i -t langid.collection.train.vector.
 java weka.classifiers.lazy.IBk -K 5 -no-cv -i -t langid.collection.train.vector.ig0.arff -T langid.collection.test.vector.ig0.arff > IB5.txt
 
 java weka.classifiers.functions.SMO -no-cv -i -t langid.collection.train.vector.ig0.arff -T langid.collection.test.vector.ig0.arff > SMO.txt
-
-java weka.classifiers.meta.AdaBoostM1 -W weka.classifiers.bayes.NaiveBayes -no-cv -i -t langid.collection.train.vector.ig0.arff -T langid.collection.test.vector.ig0.arff > ADANB.txt
-
-java weka.classifiers.meta.AdaBoostM1 -W weka.classifiers.trees.J48 -no-cv -i -t langid.collection.train.vector.ig0.arff -T langid.collection.test.vector.ig0.arff > ADANB.txt
