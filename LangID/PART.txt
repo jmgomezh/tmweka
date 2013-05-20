@@ -1,0 +1,680 @@
+
+PART decision list
+------------------
+
+the > 0 AND
+de <= 0: EN (5945.0/8.0)
+
+and > 0: EN (1046.0/5.0)
+
+to > 0 AND
+in > 0: EN (139.0)
+
+to > 0 AND
+want <= 0 AND
+it > 0: EN (83.0)
+
+to > 0 AND
+of > 0: EN (72.0)
+
+to > 0 AND
+want <= 0 AND
+he <= 0 AND
+for <= 0 AND
+is <= 0 AND
+you <= 0 AND
+s <= 0 AND
+be <= 0 AND
+with <= 0 AND
+said <= 0 AND
+de <= 0 AND
+a <= 0 AND
+their <= 0 AND
+an <= 0 AND
+i <= 0 AND
+el <= 0: EN (58.0)
+
+said > 0: EN (245.0/1.0)
+
+was > 0: EN (146.0)
+
+that > 0: EN (135.0/1.0)
+
+in > 0 AND
+after <= 0 AND
+i <= 0 AND
+of <= 0 AND
+le <= 0 AND
+on <= 0 AND
+s <= 0 AND
+are <= 0 AND
+is <= 0 AND
+at <= 0 AND
+have <= 0 AND
+with <= 0 AND
+un <= 0: EN (57.0/1.0)
+
+at > 0: EN (115.0/1.0)
+
+to > 0 AND
+de <= 0 AND
+a > 0: EN (67.0)
+
+have <= 0 AND
+is > 0 AND
+de <= 0 AND
+of <= 0 AND
+to <= 0 AND
+que <= 0: EN (87.0/1.0)
+
+have > 0: EN (70.0)
+
+with > 0: EN (65.0/1.0)
+
+are > 0: EN (59.0/1.0)
+
+has <= 0 AND
+be > 0 AND
+son <= 0: EN (53.0)
+
+has <= 0 AND
+from <= 0 AND
+it > 0 AND
+de <= 0: EN (59.0)
+
+has > 0: EN (52.0/1.0)
+
+from <= 0 AND
+you > 0 AND
+de <= 0: EN (33.0)
+
+from <= 0 AND
+to > 0 AND
+de <= 0 AND
+el <= 0: EN (53.0)
+
+from <= 0 AND
+for > 0 AND
+la <= 0: EN (41.0/1.0)
+
+from <= 0 AND
+of > 0 AND
+de <= 0 AND
+un <= 0: EN (65.0/2.0)
+
+from <= 0 AND
+el > 0 AND
+les <= 0 AND
+le <= 0: SP (3779.0/2.0)
+
+from <= 0 AND
+in <= 0 AND
+los > 0 AND
+le <= 0: SP (1207.0/3.0)
+
+from <= 0 AND
+in <= 0 AND
+una > 0: SP (520.0)
+
+from <= 0 AND
+in <= 0 AND
+del > 0 AND
+le <= 0 AND
+la > 0: SP (268.0)
+
+from <= 0 AND
+in <= 0 AND
+no > 0 AND
+un <= 0 AND
+la > 0: SP (144.0)
+
+from <= 0 AND
+in <= 0 AND
+las > 0 AND
+les <= 0: SP (363.0/3.0)
+
+from <= 0 AND
+in <= 0 AND
+por > 0: SP (215.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+con > 0: SP (186.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+no > 0 AND
+le <= 0 AND
+que > 0: SP (56.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+es > 0 AND
+y > 0: SP (49.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+para > 0: SP (133.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+como > 0: SP (93.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+lo > 0: SP (85.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+mã > 0: SP (75.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+no > 0 AND
+un <= 0 AND
+de <= 0 AND
+a <= 0 AND
+en <= 0 AND
+were <= 0 AND
+ve <= 0: SP (50.0/2.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+este <= 0 AND
+ha <= 0 AND
+aã±os <= 0 AND
+del > 0 AND
+l <= 0 AND
+et <= 0: SP (112.0/2.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+este <= 0 AND
+ha > 0: SP (63.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+este <= 0 AND
+aã±os <= 0 AND
+pero <= 0 AND
+esta <= 0 AND
+estã <= 0 AND
+sus <= 0 AND
+es > 0 AND
+le <= 0 AND
+a <= 0 AND
+se <= 0 AND
+et <= 0: SP (55.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+este <= 0 AND
+in <= 0 AND
+aã±os <= 0 AND
+pero <= 0 AND
+esta <= 0 AND
+estã <= 0 AND
+sus <= 0 AND
+sin <= 0 AND
+no <= 0 AND
+i <= 0 AND
+su <= 0 AND
+al <= 0 AND
+y <= 0 AND
+o <= 0 AND
+le > 0 AND
+de > 0: FR (2547.0/3.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+este > 0: SP (52.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+aã±os > 0: SP (38.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+pero > 0: SP (35.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+esta > 0: SP (33.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+estã > 0: SP (30.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+sus <= 0 AND
+sin <= 0 AND
+no > 0 AND
+were <= 0 AND
+ve <= 0: SP (28.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+sus <= 0 AND
+sin <= 0 AND
+i <= 0 AND
+su > 0 AND
+des <= 0 AND
+est <= 0 AND
+ont <= 0: SP (70.0/2.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+sus <= 0 AND
+sin <= 0 AND
+i <= 0 AND
+al <= 0 AND
+y <= 0 AND
+ã  > 0: FR (1985.0/1.0)
+
+from <= 0 AND
+he <= 0 AND
+in <= 0 AND
+sus <= 0 AND
+sin <= 0 AND
+i <= 0 AND
+et > 0: FR (1174.0/1.0)
+
+from <= 0 AND
+he > 0 AND
+de <= 0 AND
+no <= 0 AND
+gente <= 0: EN (26.0/5.0)
+
+from <= 0 AND
+in <= 0 AND
+sus <= 0 AND
+des > 0: FR (693.0)
+
+from > 0: EN (25.0)
+
+in > 0 AND
+le <= 0: EN (24.0/3.0)
+
+les > 0 AND
+que <= 0: FR (507.0/3.0)
+
+est > 0: FR (361.0)
+
+du > 0: FR (275.0)
+
+il > 0: FR (228.0)
+
+pour > 0: FR (193.0)
+
+une > 0: FR (144.0)
+
+pas > 0: FR (109.0)
+
+au > 0: FR (91.0)
+
+ce > 0: FR (63.0)
+
+dans <= 0 AND
+plus <= 0 AND
+par <= 0 AND
+nous <= 0 AND
+je <= 0 AND
+l > 0: FR (59.0/3.0)
+
+dans > 0: FR (56.0)
+
+plus > 0: FR (43.0)
+
+par <= 0 AND
+nous > 0: FR (31.0)
+
+par > 0: FR (31.0)
+
+je <= 0 AND
+sur > 0: FR (29.0/1.0)
+
+je > 0: FR (28.0)
+
+on > 0 AND
+la <= 0 AND
+de <= 0 AND
+peut <= 0: EN (24.0/3.0)
+
+son > 0 AND
+y <= 0: FR (35.0/4.0)
+
+le > 0 AND
+el <= 0 AND
+al <= 0 AND
+y <= 0 AND
+sus <= 0: FR (58.0/4.0)
+
+y > 0: SP (254.0/4.0)
+
+de > 0 AND
+al <= 0 AND
+se > 0 AND
+va <= 0: SP (43.0/2.0)
+
+de > 0 AND
+al <= 0 AND
+a <= 0 AND
+zenit <= 0 AND
+un <= 0 AND
+2001 <= 0 AND
+en <= 0 AND
+la <= 0 AND
+ii <= 0 AND
+2002 <= 0 AND
+que <= 0: SP (131.0/26.0)
+
+la > 0 AND
+al <= 0 AND
+un <= 0 AND
+de <= 0 AND
+que <= 0 AND
+sobre <= 0 AND
+tras <= 0 AND
+a <= 0 AND
+sera <= 0 AND
+contra <= 0 AND
+segunda <= 0 AND
+se <= 0 AND
+en <= 0 AND
+avait <= 0 AND
+ãªtre <= 0 AND
+pourrait <= 0: SP (39.0/5.0)
+
+la > 0 AND
+tras <= 0 AND
+al <= 0 AND
+que > 0 AND
+sera <= 0: SP (39.0/4.0)
+
+de > 0 AND
+zenit <= 0 AND
+sus <= 0 AND
+2001 <= 0 AND
+al <= 0 AND
+un > 0 AND
+ã©tã© <= 0 AND
+cette <= 0: SP (48.0/4.0)
+
+la > 0 AND
+sobre <= 0 AND
+tras <= 0 AND
+un <= 0 AND
+al <= 0 AND
+sera <= 0 AND
+hoy <= 0 AND
+iglesia <= 0 AND
+se <= 0 AND
+en > 0 AND
+aussi <= 0 AND
+finale <= 0 AND
+n <= 0 AND
+fue <= 0 AND
+primera <= 0 AND
+cã <= 0 AND
+a <= 0: SP (42.0/5.0)
+
+la > 0 AND
+sobre <= 0 AND
+cette <= 0 AND
+tras <= 0 AND
+le <= 0 AND
+hoy <= 0 AND
+sera <= 0 AND
+iglesia <= 0 AND
+al <= 0 AND
+avec <= 0 AND
+se <= 0 AND
+un <= 0 AND
+a > 0 AND
+mãªme <= 0 AND
+de <= 0: SP (19.0/1.0)
+
+la > 0 AND
+cette <= 0 AND
+sobre <= 0 AND
+tras <= 0 AND
+sera <= 0 AND
+que <= 0 AND
+hoy <= 0 AND
+iglesia <= 0 AND
+avec <= 0 AND
+al <= 0 AND
+un <= 0 AND
+contra <= 0 AND
+de > 0 AND
+ont <= 0 AND
+zenit <= 0 AND
+en <= 0 AND
+a <= 0 AND
+se <= 0: SP (57.0/12.0)
+
+la > 0 AND
+cette <= 0 AND
+sera <= 0 AND
+avec <= 0 AND
+que <= 0 AND
+ã©tã© <= 0 AND
+sobre <= 0 AND
+hoy <= 0 AND
+iglesia <= 0 AND
+mãªme <= 0 AND
+pourrait <= 0 AND
+tras <= 0 AND
+n <= 0 AND
+contra <= 0 AND
+el <= 0 AND
+zenit <= 0 AND
+avait <= 0 AND
+aussi <= 0 AND
+ils <= 0 AND
+france <= 0 AND
+finale <= 0 AND
+chaã®ne <= 0 AND
+al <= 0 AND
+a > 0: SP (18.0/2.0)
+
+la > 0 AND
+cette <= 0 AND
+sera <= 0 AND
+avec <= 0 AND
+ã©tã© <= 0 AND
+que <= 0 AND
+sobre <= 0 AND
+mãªme <= 0 AND
+pourrait <= 0 AND
+hoy <= 0 AND
+iglesia <= 0 AND
+tras <= 0 AND
+avait <= 0 AND
+aussi <= 0 AND
+ils <= 0 AND
+france <= 0 AND
+finale <= 0 AND
+chaã®ne <= 0 AND
+de > 0: SP (17.0)
+
+la > 0 AND
+cette <= 0 AND
+sera <= 0 AND
+avec <= 0 AND
+ã©tã© <= 0 AND
+mãªme <= 0 AND
+pourrait <= 0 AND
+que <= 0 AND
+sobre <= 0 AND
+avait <= 0 AND
+aussi <= 0 AND
+ils <= 0 AND
+france <= 0 AND
+finale <= 0 AND
+chaã®ne <= 0 AND
+un <= 0: SP (37.0/3.0)
+
+la > 0 AND
+sobre <= 0 AND
+al <= 0 AND
+tras <= 0 AND
+un <= 0: FR (32.0)
+
+un > 0 AND
+avec <= 0 AND
+ãªtre <= 0 AND
+peu <= 0 AND
+ã©tã© <= 0 AND
+aux <= 0 AND
+nouveau <= 0 AND
+cest <= 0 AND
+de <= 0 AND
+la <= 0: SP (36.0/6.0)
+
+un > 0 AND
+al <= 0 AND
+sus <= 0 AND
+tribunal <= 0: FR (26.0/3.0)
+
+en > 0 AND
+se <= 0 AND
+elle <= 0 AND
+yahoo <= 0 AND
+la <= 0 AND
+de <= 0 AND
+cette <= 0: SP (49.0/11.0)
+
+en > 0 AND
+se <= 0 AND
+la <= 0 AND
+p <= 0 AND
+de > 0 AND
+ã©tã© <= 0 AND
+leurs <= 0 AND
+six <= 0: SP (19.0/8.0)
+
+en > 0 AND
+se <= 0 AND
+la <= 0 AND
+p <= 0: FR (13.0)
+
+de > 0 AND
+les <= 0: SP (76.0/4.0)
+
+que > 0 AND
+ne <= 0 AND
+les <= 0: SP (33.0/2.0)
+
+a <= 0: SP (553.0/217.0)
+
+by <= 0 AND
+but <= 0 AND
+ã©tã© <= 0 AND
+as <= 0 AND
+we <= 0 AND
+10 <= 0 AND
+les <= 0 AND
+sã³lo <= 0 AND
+s > 0: EN (5.0/2.0)
+
+by > 0: EN (5.0)
+
+ã©tã© <= 0 AND
+but <= 0 AND
+as <= 0 AND
+we <= 0 AND
+10 <= 0 AND
+les <= 0 AND
+sã³lo > 0: SP (4.0)
+
+ã©tã© <= 0 AND
+but > 0: EN (4.0)
+
+ã©tã© <= 0 AND
+as <= 0 AND
+we <= 0 AND
+10 <= 0 AND
+les > 0: SP (3.0/1.0)
+
+ã©tã© <= 0 AND
+as <= 0 AND
+we <= 0 AND
+10 > 0: EN (3.0/1.0)
+
+ã©tã© <= 0 AND
+as <= 0 AND
+we > 0: EN (3.0)
+
+ã©tã© <= 0 AND
+as > 0: EN (3.0)
+
+ã©tã© > 0: FR (3.0)
+
+m > 0 AND
+actualizado <= 0: EN (2.0)
+
+: SP (61.0/20.0)
+
+Number of Rules  : 	106
+
+
+Time taken to build model: 34630.25 seconds
+Time taken to test model on training data: 0.69 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       26583               98.4556 %
+Incorrectly Classified Instances       417                1.5444 %
+Kappa statistic                          0.9768
+Mean absolute error                      0.0159
+Root mean squared error                  0.0892
+Relative absolute error                  3.5774 %
+Root relative squared error             18.914  %
+Coverage of cases (0.95 level)          99.7815 %
+Mean rel. region size (0.95 level)      35.9679 %
+Total Number of Instances            27000     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,981    0,002    0,996      0,981    0,988      0,983    0,999     0,998     EN
+                 0,977    0,001    0,997      0,977    0,987      0,981    0,999     0,997     FR
+                 0,996    0,020    0,962      0,996    0,978      0,968    0,999     0,997     SP
+Weighted Avg.    0,985    0,008    0,985      0,985    0,985      0,977    0,999     0,997     
+
+
+=== Error on test data ===
+
+Correctly Classified Instances        2925               97.5    %
+Incorrectly Classified Instances        75                2.5    %
+Kappa statistic                          0.9625
+Mean absolute error                      0.0218
+Root mean squared error                  0.1113
+Relative absolute error                  4.9001 %
+Root relative squared error             23.6038 %
+Coverage of cases (0.95 level)          99.4333 %
+Mean rel. region size (0.95 level)      36.4778 %
+Total Number of Instances             3000     
+

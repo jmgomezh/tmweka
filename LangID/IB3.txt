@@ -1,0 +1,46 @@
+
+Options: -K 3 
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 60.49 seconds
+Time taken to test model on training data: 801.24 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       17706               65.5778 %
+Incorrectly Classified Instances      9294               34.4222 %
+Kappa statistic                          0.4837
+Mean absolute error                      0.2187
+Root mean squared error                  0.4053
+Relative absolute error                 49.1969 %
+Root relative squared error             85.9777 %
+Coverage of cases (0.95 level)          95.7519 %
+Mean rel. region size (0.95 level)      48.458  %
+Total Number of Instances            27000     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,526    0,000    1,000      0,526    0,689      0,652    ?         ?         EN
+                 0,442    0,000    1,000      0,442    0,613      0,588    ?         ?         FR
+                 1,000    0,516    0,492      1,000    0,659      0,488    ?         ?         SP
+Weighted Avg.    0,656    0,172    0,831      0,656    0,654      0,576    0,000     0,000     
+
+
+=== Error on test data ===
+
+Correctly Classified Instances        1702               56.7333 %
+Incorrectly Classified Instances      1298               43.2667 %
+Kappa statistic                          0.351 
+Mean absolute error                      0.2774
+Root mean squared error                  0.477 
+Relative absolute error                 62.4171 %
+Root relative squared error            101.1966 %
+Coverage of cases (0.95 level)          86.9    %
+Mean rel. region size (0.95 level)      47.8889 %
+Total Number of Instances             3000     
+
