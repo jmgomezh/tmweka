@@ -12,7 +12,9 @@ Simple example code
 
 2. Compile the `SentimentClassifier.java` class with:
 
-    ```javac SentimentClassifier.java```
+    ```
+	javac SentimentClassifier.java
+	```
 
 3. Test the `SentimentClassifier` class with:
 
