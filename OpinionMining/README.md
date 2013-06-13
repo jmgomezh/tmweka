@@ -12,12 +12,14 @@ Simple example code
 
 2. Compile the `SentimentClassifier.java` class with:
 
-    javac SentimentClassifier.java
+    ```javac SentimentClassifier.java```
 
 3. Test the `SentimentClassifier` class with:
 
-    java SentimentClassifier caryes1.txt smo.model.dat
+    ```
+	java SentimentClassifier caryes1.txt smo.model.dat
     java SentimentClassifier carno1.txt smo.model.dat
+	```
 	
 Things you can change easily
 ----------------------------
