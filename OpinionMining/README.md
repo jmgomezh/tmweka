@@ -28,6 +28,6 @@ Things you can change easily
 
 Edit the script to:
 
-1. Change the size of the n-grams used, by seting `-min` and `-max` options in the `learn.sh` script. For instance, you can use bigrams to 4-grams by setting `-min 2 -max 4`. The longer the n-grams, the slower the training process will be. It will use more memory as well. HINT: Make use of JVM -X options to increase the heap space.
+1. Change the size of the n-grams used, by seting `-min` and `-max` options in the `learn.sh` script. For instance, you can use bigrams to 4-grams by setting `-min 2 -max 4`. The longer the n-grams, the slower the training process will be. It will use more memory as well. HINT: Make use of JVM `-X` options to increase the heap space.
 
 2. Change the learning algorithm, by setting the `-W` option in the `learn.sh` script. For instance, you can choose to use the Naive Bayes algorithm by setting `-W weka.classifiers.bayes.NaiveBayes`. HINT: If you need to set specific options for the learning algorithm, make use of the `--` separator at the end of the java invocation line.
