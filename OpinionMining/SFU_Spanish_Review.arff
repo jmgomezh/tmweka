@@ -1,4 +1,6 @@
-@relation 'C__Documents and Settings_usuario_Mis documentos_Web_blog_posts_99999999.opinion.mining_SFU_Spanish_Review_WEKA'
+% This dataset is based on the SFU Review Corpus
+% All infor, papers, and attribution is available at: http://www.sfu.ca/~mtaboada/research/SFU_Review_Corpus.html
+@relation SFU_Spanish_Review
 
 @attribute text string
 @attribute @@class@@ {no,yes}
