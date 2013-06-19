@@ -1,5 +1,5 @@
 /**
- * A Java class that implements a simple language identifier, based on WEKA.
+ * A Java class that implements a simple sentiment classifier, based on WEKA.
  * It requires a serialized model of the type FilteredClassifier.
  * WEKA is available at: http://www.cs.waikato.ac.nz/ml/weka/
  * Copyright (C) 2013 Jose Maria Gomez Hidalgo - http://www.esp.uem.es/jmgomez
@@ -19,16 +19,16 @@ import java.util.ArrayList;
 import java.io.*;
 
 /**
- * This class implements a simple text classifier in Java using WEKA.
+ * This class implements a simple sentiment classifier in Java using WEKA.
  * It loads a file with the text to classify, and the model that has been
- * learnt with teh learn.sh script.
+ * learnt with the learn.sh script.
  * @author Jose Maria Gomez Hidalgo - http://www.esp.uem.es/jmgomez
  * @see MyFilteredLearner
  */
  public class SentimentClassifier {
 
 	/**
-	 * String that stores the text to guess its language.
+	 * String that stores the text to classify.
 	 */
 	String text;
 	/**
