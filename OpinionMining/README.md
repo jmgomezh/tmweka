@@ -1,6 +1,9 @@
 OpinionMining
 =============
 
+Learning Based Approach
+=======================
+
 An example of Sentiment Analysis with Text Mining in WEKA.
 
 For more information, check <a href="http://www.esp.uem.es/jmgomez/tmweka">Text Mining in WEKA Cookbook</a> and the post <a href="http://jmgomezhidalgo.blogspot.com.es/2013/06/baseline-sentiment-analysis-with-weka.html">Baseline Sentiment Analysis with WEKA</a>.
@@ -33,3 +36,10 @@ Edit the script to:
 1. Change the size of the n-grams used, by seting `-min` and `-max` options in the `learn.sh` script. For instance, you can use bigrams to 4-grams by setting `-min 2 -max 4`. The longer the n-grams, the slower the training process will be. It will use more memory as well. HINT: Make use of JVM `-X` options to increase the heap space.
 
 2. Change the learning algorithm, by setting the `-W` option in the `learn.sh` script. For instance, you can choose to use the Naive Bayes algorithm by setting `-W weka.classifiers.bayes.NaiveBayes`. HINT: If you need to set specific options for the learning algorithm, make use of the `--` separator at the end of the java invocation line.
+
+Keyword Based Approach
+======================
+
+An example of Sentiment Analysis with <a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a>.
+
+For more information (including how to make the `SentiWordNetDemo.java` work), check <a href="http://www.esp.uem.es/jmgomez/tmweka">Text Mining in WEKA Cookbook</a> and the post <a href="http://jmgomezhidalgo.blogspot.com.es/2013/06/comparing-baselines-of-keyword-and.html">Comparing baselines of keyword and learning based sentiment analysis</a>.
